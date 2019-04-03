@@ -36,42 +36,5 @@ void bridge_init(struct bridge os)
 
 
 
-//lock acquire
-void lock_acquire_north()
-{
-    Osbridge.lk.lck = 2;
-}
-void lock_acquire_south()
-{
-    Osbridge.lk.lck = 1;
-}
-
-
-// empyty wait
-void emptywaitN(){
-
-    int z;
-    for(z = 0; z < xn; z++)
-    {
-        printf("Process North %d gets executed :: ",waitN[z]);
-    }
-    puts("");
-    xn = 0;
-
-}
-
-void emptywaitS(){
-
-    int z;
-    for(z = 0; z < xs; z++)
-    {
-        printf("Process south %d gets executed :: ",waitS[z]);
-    }
-    puts("");
-    xs = 0;
-
-}
-
-
 
 
