@@ -1,2 +1,3 @@
 # OperatingSystem
-Solution of Producer and Consumer Problem through cars and bridge example
+Solution of Consumer and Producer Problem Through DeadLock Prevention
+
